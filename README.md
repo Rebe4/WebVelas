@@ -4,10 +4,10 @@ Este proyecto es una página web para mostrar y vender velas, creada como un eje
 
 - Tecnologías utilizadas
 
- *HTML*: para la estructura de la página.
- *CSS*: para el estilo y diseño visual.
- *PHP*: para procesar el formulario de contacto y enviar los datos ingresados.
- *XAMPP*: para simular un servidor local y probar el formulario PHP.
+- *HTML*: para la estructura de la página.
+- *CSS*: para el estilo y diseño visual.
+- *PHP*: para procesar el formulario de contacto y enviar los datos ingresados.
+- *XAMPP*: para simular un servidor local y probar el formulario PHP.
 
 - Instalación
 
