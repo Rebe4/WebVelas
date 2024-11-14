@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velas de Diseño</title>
+    <link rel="stylesheet" href="velas/stylesheet/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="diseño">R's Candle</h1>
+
+        <nav class="primary-nav">
+            <a href="inicio.html" class="btn btn-alt">Inicio</a>
+            <a href="decorativas.html" class="btn btn-alt">Decorativas</a>
+            <a href="aromáticas.html" class="btn btn-alt">Aromáticas</a>
+            <a href="personalizadas.html" class="btn btn-alt">Personalizadas</a>
+            <a href="#" class="btn btn-this">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="move-body">
+        <form action="procesar_formulario.php" method="POST">
+            <h4 class="contact">Contacto</h4>
+            <div class="input-group">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre" required>
+
+                <label for="phone">Teléfono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Teléfono" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje" required></textarea>
+
+                <div class="form-txt">
+                    <a href="#">Política de privacidad</a>
+                    <a href="#">Términos y condiciones</a>
+                </div>
+
+                <input class="btn-esto" type="submit" value="Enviar">
+                <input type="hidden" name="_next" value="https://velas/contacto.html">
+                <input type="hidden" name="_captcha" value="false">
+            </div>
+        </form>
+    </section>
+
+    <footer class="primary-footer">
+        <small>© R's Candle</small>
+        <nav class="nav">
+            <a href="contacto.html">Contacto:</a><br>
+            <a href="mailto:VelasdeDiseño@gmail.com">VelasdeDiseño@gmail.com</a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
