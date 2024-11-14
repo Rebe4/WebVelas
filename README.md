@@ -11,4 +11,4 @@ Este proyecto es una página web para mostrar y vender velas, creada como un eje
 
 - Instalación
 
- git clone https://github.com/usuario/WebVelas.git
+ git clone https://github.com/Rebe4/WebVelas.git
